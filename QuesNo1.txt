@@ -1,0 +1,22 @@
+                                  Difference between HTTP1.1 vs HTTP2
+
+  HTTP stands for hypertext transfer protocol and it is used in client-server communication. 
+the clint can use HTTP protcol to send the request to the serverand the server sends it's response to the clint's request.
+
+There are two stages of http development that we need to focus on.
+1.HTTP1.1
+2.HTTP2
+
+The difference between the both HTTP1.1 and HTTP2.
+
+1) HTTP1.1 works on the textual format,	
+   HTTP2 works on the binary protocol.
+
+2) There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources,
+   HTTP2 allows multiplexing so one TCP connection is required for multiple requests.
+
+3) HTTP1.1 uses requests resource Inlining for use getting multiple pages,	
+   HTTP2 uses PUSH frame by server that collects all multiple pages. 
+
+4) HTTP1.1 compresses data by itself.
+   HTTP2 uses HPACK for data compression.

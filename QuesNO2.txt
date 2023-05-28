@@ -1,0 +1,36 @@
+                    Objects and its Internal representation in Javascript
+
+     In JS, Object is most important data-type.Object can create the building blocks for
+ modern JavaScript. Objects are morecomplex. Objects consist of an Key and value like
+("Key : Value" pair). These keys can be variables or functions and are called properties and methods,
+ respectively, in the context of an object.
+    
+Creating Objects in JavaScript:
+
+1) By object literal,
+2) By creating instance of Object directly (using new keyword).
+
+Syntaxt to create a Object,
+ 
+1) this is like Object Literal
+
+let object = {
+  key : "value"
+};
+
+2) istance of creating the object directly
+  
+let Object = new task();
+
+Accessing JavaScript Objects
+
+You can use syntaxt ,
+
+objectName.property
+
+or
+
+objectName[“property”] 
+
+by using the .dot or  operator, you can access the values and keys 
+that are present in the Object.
